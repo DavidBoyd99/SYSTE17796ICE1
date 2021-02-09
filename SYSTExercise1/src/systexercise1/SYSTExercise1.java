@@ -9,7 +9,8 @@ public class SYSTExercise1 {
         
         int[] grades = {80, 67, 95, 72, 79, 60, -19, 90, 81, 70};
         
-        System.out.println(calcAvg(grades));        
+        System.out.println(calcAvg(grades));
+        System.out.println(calcMax(grades));
     }
     
     public static int calcAvg(int[] x)
