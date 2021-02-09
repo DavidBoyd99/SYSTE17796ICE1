@@ -14,7 +14,7 @@ public class SYSTExercise1 {
     
     public static int calcAvg(int[] x)
     {
-        
+        // Comment added in remote Repo
         int count = 0;
         int highest = x[0];
         int total = 0;
