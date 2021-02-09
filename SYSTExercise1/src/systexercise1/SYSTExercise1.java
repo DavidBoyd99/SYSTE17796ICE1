@@ -16,7 +16,6 @@ public class SYSTExercise1 {
     {
         // Comment added in remote Repo
         int count = 0;
-        int highest = x[0];
         int total = 0;
         for(int i = 0; i < x.length; i++)
         {
@@ -24,14 +23,23 @@ public class SYSTExercise1 {
             {
                 count++;
                 total += x[i];
-                if (x[i] > highest)
-                {
-                    highest = x[i];
-                }
             }
             
         }
         return total / count;
+    }
+    
+    public static int calcMax(int[] x)
+    {
+        int max = x[0];
+        for(int i = 0; i < x.length; i++)
+        {
+            if (x[i] >= max)
+            {
+                max = x[i];
+            }
+        }
+        return max;
     }
     
 }
